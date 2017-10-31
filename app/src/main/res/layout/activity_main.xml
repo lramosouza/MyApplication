@@ -35,6 +35,23 @@
             android:id="@+id/etTimeCasa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Visitante" />
+        <EditText
+            android:hint="Informe o nome do time vistiante"
+            android:id="@+id/etTimeVisitante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Jogo"
+            android:onClick="iniciarJogo"
+            android:id="@+id/button" />
     </LinearLayout>
 
     <TextView
@@ -44,6 +61,5 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="@string/label_desenvolvimento" />
-
 
 </RelativeLayout>
